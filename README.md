@@ -22,7 +22,7 @@ This is a catkin package. Make sure the package is on `ROS_PACKAGE_PATH` after c
 
 ```
 cd your_work_space
-catkin_make --pkg mocap_{sys} --cmake-args -DCMAKE_BUILD_TYPE=Release
+catkin_make
 ```
 
 This will compile the drivers for `{sys}`
